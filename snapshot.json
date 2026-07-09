@@ -1,0 +1,755 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-07-09",
+  "updatedAt": "2026-07-09T19:00:00Z",
+  "exportedAt": "2026-07-09T23:28:06.979Z",
+  "districtCode": "ME-02",
+  "data": {
+    "DISTRICT": {
+      "id": "me-02",
+      "districtNumber": "ME-02",
+      "districtName": "Maine's 2nd Congressional District",
+      "state": "Maine",
+      "counties": [
+        "Androscoggin",
+        "Aroostook",
+        "Franklin",
+        "Hancock",
+        "Oxford",
+        "Penobscot",
+        "Piscataquis",
+        "Somerset",
+        "Waldo",
+        "Washington",
+        "Kennebec (part - 18 towns: Augusta, Belgrade, Chelsea, Farmingdale, Fayette, Gardiner, Hallowell, Manchester, Monmouth, Mount Vernon, Oakland, Randolph, Readfield, Rome, Sidney, Vienna, Wayne, Winthrop)"
+      ],
+      "majorPlaces": [
+        "Bangor",
+        "Lewiston",
+        "Auburn",
+        "Augusta",
+        "Presque Isle"
+      ],
+      "cycleYear": 2026,
+      "population": 750000,
+      "registeredVoters": null,
+      "partyRegistration": null,
+      "previousResult": null,
+      "boundaryConfidence": "unconfirmed",
+      "electorateConfidence": "unconfirmed",
+      "newsDiscoveryHints": {
+        "geographicHint": "ME-02 covers most of Maine's land area: 10 whole counties from Aroostook (far north) to Oxford (west) and Washington (Down East), plus 18 specific Kennebec County towns (including Augusta). Elections are administered town-by-town, not county-by-county. Population centers include Bangor (Penobscot County) and Lewiston-Auburn (Androscoggin County).",
+        "preferredOutlets": [
+          "Bangor Daily News",
+          "Central Maine (Kennebec Journal / Morning Sentinel)",
+          "Maine Public",
+          "Portland Press Herald",
+          "Maine Beacon",
+          "Legis1"
+        ]
+      }
+    },
+    "SOURCES": {
+      "src-me-sos-elections-hub": {
+        "id": "src-me-sos-elections-hub",
+        "name": "Maine Secretary of State — Elections & Voting hub",
+        "short": "Maine SOS Elections",
+        "url": "https://www.maine.gov/sos/elections-voting/",
+        "publisher": "Maine Secretary of State, Bureau of Corporations, Elections and Commissions",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
+      },
+      "src-me-register-to-vote": {
+        "id": "src-me-register-to-vote",
+        "name": "Maine — Register to Vote (registertovote.sos.maine.gov)",
+        "short": "Maine Register",
+        "url": "https://registertovote.sos.maine.gov/",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-me-absentee-guide": {
+        "id": "src-me-absentee-guide",
+        "name": "Maine SOS — Absentee Voting Guide",
+        "short": "Maine Absentee Guide",
+        "url": "https://www.maine.gov/sos/elections-voting/absentee-guide",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
+      },
+      "src-me-absentee-request-portal": {
+        "id": "src-me-absentee-request-portal",
+        "name": "Maine — Absentee Ballot Request Portal",
+        "short": "Maine Absentee Request",
+        "url": "https://absenteeballotrequest.sos.maine.gov/",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Per live site notice, opens for the 2026 general election on August 3, 2026. Legacy portal also referenced: apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl."
+      },
+      "src-me-voter-lookup": {
+        "id": "src-me-voter-lookup",
+        "name": "Maine — eDemocracy Voter Information Lookup",
+        "short": "Maine Voter Lookup",
+        "url": "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Provides polling place, sample ballot, and elected-official lookup. Does NOT provide a registration-status check (see rule-me-no-reg-status-tool)."
+      },
+      "src-me-upcoming-elections": {
+        "id": "src-me-upcoming-elections",
+        "name": "Maine SOS — Upcoming Elections (results/data hub)",
+        "short": "Maine Upcoming Elections",
+        "url": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Also references a 'Listing of Municipal Clerks and Registrars and Office Addresses.' NEEDS REVIEW: exact direct URL to that listing was not independently isolated in this pass."
+      },
+      "src-me-results-historical": {
+        "id": "src-me-results-historical",
+        "name": "Maine SOS — Election Results & Data (historical)",
+        "short": "Maine Results Historical",
+        "url": "https://www.maine.gov/sos/cec/elec/data/index.html",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-me-title21a-752b": {
+        "id": "src-me-title21a-752b",
+        "name": "Maine Revised Statutes, Title 21-A Section 752-B (absentee drop boxes)",
+        "short": "Title 21-A Section 752-B",
+        "url": "https://legislature.maine.gov/statutes/21-a/title21-Asec752-B.html",
+        "publisher": "Maine Legislature",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
+      },
+      "src-me-question1-voter-id": {
+        "id": "src-me-question1-voter-id",
+        "name": "Maine Question 1 (2025 citizen initiative) — Voter Photo ID Requirement",
+        "short": "Maine Question 1 Voter ID",
+        "url": "https://legislature.maine.gov/",
+        "publisher": "Maine Legislature / Maine voters (citizen initiative)",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
+      },
+      "src-me-candidates-guide-2026": {
+        "id": "src-me-candidates-guide-2026",
+        "name": "State of Maine — 2026 Candidate's Guide to Ballot Access (PDF)",
+        "short": "Maine 2026 Candidates Guide",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Candidates%20Guide%20to%20Ballot%20Access%20Final.pdf",
+        "publisher": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-fairvote-me-rcv": {
+        "id": "src-fairvote-me-rcv",
+        "name": "FairVote — Maine Supreme Court Maintains Status Quo on Ranked-Choice Voting",
+        "short": "FairVote RCV Status Quo",
+        "url": "https://fairvote.org/maine-supreme-court-maintains-status-quo-on-ranked-choice-voting/",
+        "publisher": "FairVote",
+        "sourceType": "civic-nonprofit",
+        "hierarchyLevel": 5,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-vote-gov-maine": {
+        "id": "src-vote-gov-maine",
+        "name": "Vote.gov — How to Register in Maine",
+        "short": "Vote.gov Maine",
+        "url": "https://vote.gov/register/maine",
+        "publisher": "Vote.gov (U.S. General Services Administration)",
+        "sourceType": "civic-nonprofit",
+        "hierarchyLevel": 5,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-wikipedia-me02": {
+        "id": "src-wikipedia-me02",
+        "name": "Wikipedia — Maine's 2nd congressional district",
+        "short": "Wikipedia ME-02",
+        "url": "https://en.wikipedia.org/wiki/Maine%27s_2nd_congressional_district",
+        "publisher": "Wikipedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 7,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
+      },
+      "src-central-maine-lepage": {
+        "id": "src-central-maine-lepage",
+        "name": "Central Maine — Republicans got their preferred Paul LePage opponent, but Maine's 2nd District race is far from over",
+        "short": "Central Maine LePage",
+        "url": "https://www.centralmaine.com/2026/06/23/republicans-got-their-preferred-paul-lepage-opponent-but-maines-2nd-district-race-is-far-from-over/",
+        "publisher": "Central Maine (Kennebec Journal / Morning Sentinel)",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-maine-public-primaries-set": {
+        "id": "src-maine-public-primaries-set",
+        "name": "Maine Public — Maine's gubernatorial and congressional primaries are set",
+        "short": "Maine Public Primaries Set",
+        "url": "https://www.mainepublic.org/politics/2026-03-16/maines-gubernatorial-and-congressional-primaries-are-set",
+        "publisher": "Maine Public (WMEH)",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-maine-public-independent-governor": {
+        "id": "src-maine-public-independent-governor",
+        "name": "Maine Public — Independent qualifies for ballot, setting up 3-way race for Maine governor",
+        "short": "Maine Public Independent Governor",
+        "url": "https://www.mainepublic.org/politics/2026-06-04/independent-qualifies-for-ballot-setting-up-3-way-race-for-maine-governor",
+        "publisher": "Maine Public (WMEH)",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Confirms Rick Bennett (I) qualified for the Governor's race, not ME-02 — the only 2026 independent statewide/congressional candidacy identified in this research."
+      },
+      "src-legis1-me02": {
+        "id": "src-legis1-me02",
+        "name": "Legis1 — Maine's 2nd District 2026 Race Heats Up",
+        "short": "Legis1 ME-02",
+        "url": "https://legis1.com/news/maine-2nd-congressional-district-2026-money-flows",
+        "publisher": "Legis1",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-ap-rcv-limbo": {
+        "id": "src-ap-rcv-limbo",
+        "name": "AP — Maine is stuck in ranked-choice voting limbo, that's not likely to change soon",
+        "short": "AP RCV Limbo",
+        "url": "https://www.ap.org/news-highlights/elections/2026/maine-is-stuck-in-ranked-choice-voting-limbo-thats-not-likely-to-change-soon/",
+        "publisher": "Associated Press",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-me02-golden-retirement-announcement",
+        "milestone": "Rep. Jared Golden (D) announces retirement — ME-02 becomes an open seat",
+        "electionType": "primary",
+        "date": "2025-11-05",
+        "significance": "Incumbent Rep. Jared Golden (D) announced via a Bangor Daily News op-ed that he will not seek re-election in 2026, citing political-violence threats, family, and burnout with partisan gridlock. ME-02 has no incumbent on the 2026 general-election ballot.",
+        "governingAuthority": "N/A — candidate announcement, not an election administration action",
+        "sourceIds": [
+          "src-central-maine-lepage",
+          "src-maine-public-primaries-set"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-primary-day",
+        "milestone": "Primary election day, ranked-choice tabulation (completed)",
+        "electionType": "primary",
+        "date": "2026-06-09",
+        "significance": "Democratic primary decided by ranked-choice tabulation: Matthew Dunlap (Maine State Auditor) won a 4-way field with a final-round 52.5% (35,924 votes) over State Sen. Joe Baldacci's 47.5% (32,555 votes); Jordan Wood and Paige Loud were eliminated in earlier RCV rounds. Baldacci led on election night but Dunlap overtook him via second-choice votes. Paul LePage (R, former Maine Governor) ran unopposed in the Republican primary with 69,233 votes (100%).",
+        "governingAuthority": "Maine Secretary of State, Bureau of Corporations, Elections and Commissions",
+        "sourceIds": [
+          "src-maine-public-primaries-set",
+          "src-central-maine-lepage"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-independent-filing-deadline",
+        "milestone": "Independent/unenrolled candidate signature-filing deadline (completed)",
+        "electionType": "general",
+        "date": "2026-06-01",
+        "significance": "Deadline for independent/unenrolled candidates to file signatures to qualify for the November 2026 ballot. No independent or unaffiliated ME-02 candidate qualified. The only 2026 independent statewide/congressional candidacy confirmed in this research is Rick Bennett (I), who qualified for the Governor's race, not ME-02 — meaning the ME-02 general election is a straight two-candidate race.",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceIds": [
+          "src-maine-public-primaries-set",
+          "src-maine-public-independent-governor",
+          "src-me-candidates-guide-2026"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-absentee-available",
+        "milestone": "Absentee ballots become available — general",
+        "electionType": "general",
+        "date": "2026-10-04",
+        "significance": "Absentee ballots become available beginning 30 days before Election Day. NEEDS REVIEW: exact date is calculated (30 days before Nov. 3, 2026); confirm against the Maine SOS Absentee Guide for any municipal variation.",
+        "governingAuthority": "Maine municipal clerks (per Maine SOS Absentee Guide)",
+        "sourceIds": [
+          "src-me-absentee-guide"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-absentee-request-portal-opens",
+        "milestone": "Statewide online absentee ballot request portal opens — general",
+        "electionType": "general",
+        "date": "2026-08-03",
+        "significance": "Per a live site notice, the Maine online absentee ballot request portal opens for the 2026 general election on this date.",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceIds": [
+          "src-me-absentee-request-portal"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-general-reg-deadline",
+        "milestone": "Voter registration deadline (by mail/online) — general",
+        "electionType": "general",
+        "date": "2026-10-13",
+        "significance": "Standard mail/online voter registration deadline, 21 days before the November 3, 2026 general election. Same-day registration remains available in person at the municipal clerk's office through and including Election Day.",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceIds": [
+          "src-vote-gov-maine",
+          "src-me-sos-elections-hub"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-general-absentee-request-deadline",
+        "milestone": "Absentee ballot request deadline (standard) — general",
+        "electionType": "general",
+        "date": "2026-10-29",
+        "significance": "Standard absentee ballot request deadline: the Thursday before Election Day, close of business, absent special circumstances (e.g., illness).",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceIds": [
+          "src-me-absentee-guide"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. ME-02 (open seat): Matthew Dunlap (D) vs. Paul LePage (R). Because only two candidates qualified for the ballot, this U.S. House race will effectively be decided by simple majority in the first count — ranked-choice multi-round tabulation is only operative with 3+ candidates and no first-round majority. Polling hours vary by municipality (NEEDS REVIEW: opens 6:00-10:00 a.m. depending on population, closes 8:00 p.m. statewide per civic-nonprofit sources; exact statutory opening-hour table not independently re-fetched).",
+        "governingAuthority": "Maine Secretary of State; municipal clerks (local administration)",
+        "sourceIds": [
+          "src-me-upcoming-elections",
+          "src-central-maine-lepage",
+          "src-legis1-me02"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-me02-general-absentee-return-deadline",
+        "milestone": "Absentee ballot return deadline — general",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "Absentee ballots must be received (not merely postmarked) by the municipal clerk by 8:00 p.m. on Election Day.",
+        "governingAuthority": "Maine municipal clerks",
+        "sourceIds": [
+          "src-me-absentee-guide"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-me-voter-photo-id-question1",
+        "topic": "NEW voter photo-ID requirement (Question 1, effective Jan. 1, 2026)",
+        "currentRule": "Maine voters approved a first-time photo-ID requirement via the Question 1 citizen initiative (passed November 2025, effective January 1, 2026) — a major reversal of Maine's historical no-ID stance. Accepted ID for in-person voting: Maine driver's license, Maine non-driver ID, U.S. passport, military ID, or a concealed-carry permit with photo. College/university ID is explicitly NOT accepted. Absentee voters must include their ID number or a photocopy of their ID with their ballot return. Voters without ID cast a 'challenged ballot' and must provide ID within 4 days after the election, or sign a religious-exemption affidavit.",
+        "status": "active",
+        "whyItMatters": "This is the single most significant procedural change affecting ME-02 (and all Maine districts) for the 2026 cycle. Every ME-02 voter, including longtime Maine voters accustomed to no-ID voting, must now bring qualifying photo ID or be prepared to cast a challenged ballot and cure it within 4 days.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-me-question1-voter-id"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: the specific implementing statute/administrative rule citation (Title 21-A section number) was not independently pulled from the Maine Legislature's enrolled-initiative text in this pass; corroborate against legislature.maine.gov before publishing exact ID-list wording. A dedicated Maine SOS voter-ID sub-page was also not isolated in this pass — substance is sourced to news/civic-tracker coverage of the initiative."
+      },
+      {
+        "id": "rule-me-same-day-registration",
+        "topic": "Same-day voter registration (available through Election Day)",
+        "currentRule": "Maine allows same-day voter registration in person at the municipal clerk's office, available up to and including Election Day itself. The standard mail/online registration deadline is 21 days before Election Day (Oct. 13, 2026 for the general election).",
+        "status": "active",
+        "whyItMatters": "ME-02 voters who miss the Oct. 13 mail/online deadline can still register and vote by going to their municipal clerk's office in person, including on Election Day itself — a more permissive rule than some other states (e.g., North Carolina, which restricts same-day registration to the early-voting window only).",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-vote-gov-maine",
+          "src-me-sos-elections-hub"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: sourced to Vote.gov's Maine registration guide; not independently cross-checked against the Maine SOS's own same-day-registration procedure page in this pass."
+      },
+      {
+        "id": "rule-me-rcv-scope",
+        "topic": "Ranked-choice voting (RCV) scope — federal races only, general vs. primary",
+        "currentRule": "Maine uses ranked-choice voting (RCV) for U.S. House, U.S. Senate, Governor, and State Legislature PRIMARIES, and for U.S. House, U.S. Senate, and President GENERAL elections (federal races only). RCV is NOT used for Governor or State Legislature GENERAL elections — a Maine Supreme Judicial Court advisory opinion in April 2026 blocked a proposed expansion of RCV to those general elections, maintaining the status quo.",
+        "status": "active",
+        "whyItMatters": "ME-02's general election (a U.S. House race) is formally subject to RCV rules. However, because only two candidates (Dunlap and LePage) qualified for the ballot, the race will effectively be decided by simple majority in the first count, since RCV multi-round tabulation only becomes operative with 3+ candidates and no first-round majority. If a third candidate qualifies before ballot certification, full RCV tabulation would apply as it did in the June 2026 Democratic primary.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-fairvote-me-rcv",
+          "src-ap-rcv-limbo"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW (watch item): reconfirm no late-qualifying write-in or third candidate emerges before ME-02's general-election ballot is finalized; if one does, full multi-round RCV tabulation would apply."
+      },
+      {
+        "id": "rule-me-no-drop-box-mandate",
+        "topic": "Absentee ballot drop boxes — municipal discretion, no statewide locator",
+        "currentRule": "Maine law (Title 21-A Section 752-B) permits, but does not require, municipal clerks to operate a secured drop box for absentee ballots. There is no statewide drop-box locator; availability, locations, and hours are set locally by each municipality. Drop boxes, where offered, are locked at 8:00 p.m. on Election Day.",
+        "status": "active",
+        "whyItMatters": "ME-02 voters cannot assume a drop box exists in their town. Voters should check their specific municipal clerk's website or contact the clerk's office directly to confirm whether a drop box is offered and where it is located.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-me-title21a-752b"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "Confirmed via Title 21-A Section 752-B. Illustrative municipal examples (Freeport, Brunswick) are outside ME-02 and used only to show how local pages describe drop-box availability."
+      },
+      {
+        "id": "rule-me-no-registration-status-tool",
+        "topic": "No online registration-status lookup tool",
+        "currentRule": "Maine does not offer an online tool for voters to check their own registration status. The Maine SOS has explicitly confirmed this gap; voters must contact their municipal clerk directly to verify their registration.",
+        "status": "active",
+        "whyItMatters": "Unlike many other states, ME-02 voters cannot self-serve a registration-status check online. The dashboard's registration-status tile should direct users to their municipal clerk rather than implying an online lookup exists.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-me-sos-elections-hub"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "Confirmed via Maine SOS's own 'General Election Day 2024 - 29 days away' release language ('Maine does not currently have an online registration lookup tool') and corroborated by Democracy Works; this is treated as a genuine tooling gap, not a research shortfall."
+      },
+      {
+        "id": "rule-me-absentee-ballot-curing",
+        "topic": "Absentee ballot signature/affidavit curing",
+        "currentRule": "If a returned absentee ballot's signature or affidavit is missing or does not match, the municipal clerk must attempt to contact the voter (within a day, or the day before/of the election) to allow curing. If unresolved, the voter may cast a different ballot in person by 8:00 p.m. on Election Day.",
+        "status": "active",
+        "whyItMatters": "ME-02 absentee voters whose ballot has a signature or affidavit issue have a path to cure it, but the clerk's contact window is narrow — voters should monitor their absentee ballot tracker and respond promptly if contacted.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-me-absentee-guide"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: sourced to the standing curing procedure described in a 2024-cycle Maine SOS release; not independently re-confirmed for the 2026 cycle in case of statutory change."
+      },
+      {
+        "id": "rule-me-town-based-administration",
+        "topic": "Municipal (town/city) clerk administration model — no county election offices",
+        "currentRule": "Maine elections are administered by town and city clerks, not counties. There is no county-level election office equivalent to Georgia's or North Carolina's county boards of elections. Each of ME-02's 10 whole counties and the 18 Kennebec County towns is served by its own municipal clerk's office. The Secretary of State's Bureau of Corporations, Elections & Commissions maintains a statewide directory of municipal clerks and registrars.",
+        "status": "active",
+        "whyItMatters": "ME-02 voters should contact their own town/city clerk, not a county office, for election administration questions. The dashboard's resource tiles route to statewide Maine SOS pages and the central BCEC contact rather than an exhaustive per-town office list.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-me-upcoming-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: exact direct URL to the 'Listing of Municipal Clerks and Registrars and Office Addresses' referenced on the Maine SOS Upcoming Elections page was not independently isolated in this pass. Fallback contact: Maine Elections Division, (207) 624-7650, cec.elections@maine.gov. A full itemized per-town clerk-office list for all of ME-02 was not compiled given the scale of Maine's decentralized administration model."
+      },
+      {
+        "id": "rule-me02-boundary-definition",
+        "topic": "ME-02 boundary definition — whole counties plus specific Kennebec towns",
+        "currentRule": "Maine's congressional districts are defined by whole counties plus a list of specific towns, not a uniform county-based system. ME-02 covers 10 whole counties (Androscoggin, Aroostook, Franklin, Hancock, Oxford, Penobscot, Piscataquis, Somerset, Waldo, Washington) plus 18 specific Kennebec County towns (Augusta, Belgrade, Chelsea, Farmingdale, Fayette, Gardiner, Hallowell, Manchester, Monmouth, Mount Vernon, Oakland, Randolph, Readfield, Rome, Sidney, Vienna, Wayne, Winthrop). Maine's congressional boundaries have not been redrawn since the post-2020-census map.",
+        "status": "active",
+        "whyItMatters": "ME-02 voters in Kennebec County specifically must check whether their town is on the 18-town list — Kennebec County itself is split between ME-01 and ME-02, unlike the 10 whole counties.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wikipedia-me02"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: the itemized 18-town Kennebec County list was corroborated only via Wikipedia in this pass; cross-check against the official Maine apportionment statute (Title 21-A) or Maine Legislature redistricting page before publishing as authoritative. The exact district map/plan document URL was also not independently re-fetched."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-register",
+        "label": "Register to vote",
+        "description": "Official Maine voter registration portal: eligibility, deadlines, and how to register online, by mail, or in person (including same-day registration through Election Day).",
+        "url": "https://registertovote.sos.maine.gov/",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-me-register-to-vote",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Official Maine eDemocracy Voter Information Lookup — find your polling place, sample ballot, and elected officials.",
+        "url": "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-me-voter-lookup",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Maine has no statewide drop-box locator. Title 21-A Section 752-B permits (but does not require) municipal clerks to operate a secured absentee drop box; availability, locations, and hours vary by town and are locked at 8:00 p.m. on Election Day. Check your town's municipal clerk website or contact the clerk's office directly.",
+        "url": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+        "governingAuthority": "Maine Legislature (statute); municipal clerks (actual box locations)",
+        "sourceType": "official-state",
+        "sourceId": "src-me-title21a-752b",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Maine does not offer an online registration-status lookup tool — this is a confirmed gap in Maine's voter-facing tooling, not a research shortfall. Voters must contact their municipal clerk directly to verify their registration status.",
+        "url": "https://www.maine.gov/sos/elections-voting/",
+        "governingAuthority": "Maine Secretary of State; municipal clerks",
+        "sourceType": "official-state",
+        "sourceId": "src-me-sos-elections-hub",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Official Maine absentee ballot request and tracking portal. Per a live site notice, opens for the 2026 general election on August 3, 2026.",
+        "url": "https://absenteeballotrequest.sos.maine.gov/",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-me-absentee-request-portal",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-verify",
+        "label": "Voter ID information",
+        "description": "NEW for 2026: Maine's Question 1 initiative (effective Jan. 1, 2026) requires photo ID to vote. Accepted ID: Maine driver's license or non-driver ID, U.S. passport, military ID, or a concealed-carry permit with photo. College/university ID is NOT accepted. NEEDS REVIEW: a dedicated Maine SOS voter-ID sub-page was not isolated in this research pass; this description is sourced to news/civic-tracker coverage of the initiative pending an official SOS ID-specific page.",
+        "url": "https://www.maine.gov/sos/elections-voting/",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-me-question1-voter-id",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official Maine Secretary of State election results and data hub, including historical results.",
+        "url": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+        "governingAuthority": "Maine Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-me-results-historical",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-me02-municipal-clerk-directory",
+        "label": "ME-02 municipal clerk directory (town-based administration)",
+        "description": "Maine elections are administered by town/city clerks, not counties. Contact your municipal clerk directly for local election administration questions, or reach the statewide Elections Division at (207) 624-7650 / cec.elections@maine.gov. NEEDS REVIEW: exact direct URL to the statewide municipal clerk directory was not independently isolated in this pass; an exhaustive per-town office list for ME-02 was not compiled given the scale of Maine's decentralized administration model.",
+        "url": "https://www.maine.gov/sos/elections-voting/upcoming-elections",
+        "governingAuthority": "Maine Secretary of State; municipal clerks",
+        "sourceType": "official-state",
+        "sourceId": "src-me-upcoming-elections",
+        "lastVerified": "2026-07-09"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-me02-001",
+        "title": "ME-02 dashboard initialized from wa-03 template — 17 sources, 9 events, 8 rules wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build July 9, 2026, cloned from the WA-03 template structure. All 17 sources (Maine SOS elections hub/register/absentee guide/absentee request/voter lookup/upcoming elections/results/candidates guide, Title 21-A Section 752-B, Question 1 voter-ID initiative, FairVote, Vote.gov, Wikipedia, Central Maine, Maine Public x2, Legis1, AP) recorded from primary-source research. All 9 election events and 8 voting rules researched, but all marked needsReview/unconfirmed pending human QA. Candidates: Matthew Dunlap (D) vs. Paul LePage (R) — OPEN SEAT.",
+        "sourceIds": [
+          "src-me-sos-elections-hub",
+          "src-central-maine-lepage"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-me02-002",
+        "title": "OPEN SEAT: Rep. Jared Golden (D) retiring; ME-02 general is Dunlap (D) vs. LePage (R)",
+        "fieldChanged": "Candidate field / seat status",
+        "oldValue": "Jared Golden (D) incumbent, per original task brief premise.",
+        "newValue": "Golden announced on Nov. 5, 2025 that he will not seek re-election in 2026. ME-02 is now an OPEN SEAT. The Democratic nominee is Matthew Dunlap (Maine State Auditor), who won a 4-way ranked-choice primary on June 9, 2026 (final round 52.5% vs. Joe Baldacci's 47.5%). The Republican nominee is Paul LePage (former Maine Governor), who ran unopposed. No independent/unaffiliated ME-02 candidate qualified; the general election is a straight two-candidate race.",
+        "sourceIds": [
+          "src-central-maine-lepage",
+          "src-maine-public-primaries-set",
+          "src-maine-public-independent-governor"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-me02-003",
+        "title": "NEW voter photo-ID law (Question 1) takes effect Jan. 1, 2026",
+        "fieldChanged": "Voting rules — voter ID",
+        "oldValue": "Maine had no voter photo-ID requirement.",
+        "newValue": "Question 1, a citizen initiative passed in November 2025, creates Maine's first-ever voter photo-ID requirement, effective January 1, 2026. This is the single most significant procedural change for ME-02 voters in the 2026 cycle. NEEDS REVIEW: exact implementing statute/Title 21-A section citation not independently confirmed in this pass.",
+        "sourceIds": [
+          "src-me-question1-voter-id"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-me02-004",
+        "title": "All rules and events flagged for statutory-text and municipal-directory verification",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "8 voting rules and 9 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-07-09). Verify the Question 1 implementing statute citation, the itemized 18-town Kennebec County list against an official apportionment source, and the statewide municipal clerk directory URL before publish.",
+        "sourceIds": [
+          "src-me-question1-voter-id",
+          "src-wikipedia-me02",
+          "src-me-upcoming-elections"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [],
+    "NEWS": [
+      {
+        "id": "news-me02-001",
+        "headline": "Republicans got their preferred Paul LePage opponent, but Maine's 2nd District race is far from over",
+        "sourceName": "Central Maine (Kennebec Journal / Morning Sentinel)",
+        "url": "https://www.centralmaine.com/2026/06/23/republicans-got-their-preferred-paul-lepage-opponent-but-maines-2nd-district-race-is-far-from-over/",
+        "publishedAt": "2026-06-23",
+        "relevanceSummary": "Reports Matthew Dunlap's ranked-choice primary win over Joe Baldacci, setting up the open-seat general election against Paul LePage.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-002",
+        "headline": "Maine's gubernatorial and congressional primaries are set",
+        "sourceName": "Maine Public (WMEH)",
+        "url": "https://www.mainepublic.org/politics/2026-03-16/maines-gubernatorial-and-congressional-primaries-are-set",
+        "publishedAt": "2026-03-16",
+        "relevanceSummary": "Confirms the ME-02 primary field and calendar ahead of the June 9, 2026 primary.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-003",
+        "headline": "Independent qualifies for ballot, setting up 3-way race for Maine governor",
+        "sourceName": "Maine Public (WMEH)",
+        "url": "https://www.mainepublic.org/politics/2026-06-04/independent-qualifies-for-ballot-setting-up-3-way-race-for-maine-governor",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "Confirms the only 2026 independent statewide/congressional qualifier (Rick Bennett) ran for Governor, not ME-02 — supporting the conclusion that ME-02's general election is a straight two-candidate race.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-004",
+        "headline": "Maine is stuck in ranked-choice voting limbo, that's not likely to change soon",
+        "sourceName": "Associated Press",
+        "url": "https://www.ap.org/news-highlights/elections/2026/maine-is-stuck-in-ranked-choice-voting-limbo-thats-not-likely-to-change-soon/",
+        "publishedAt": "2026-04-01",
+        "relevanceSummary": "Reports on the Maine Supreme Judicial Court's April 2026 advisory opinion maintaining the status quo on RCV scope, relevant background for understanding how ME-02's general election will be tabulated.",
+        "tag": "administration",
+        "reviewState": "new"
+      }
+    ],
+    "LAST_REFRESH": {
+      "id": "run-2026-07-09-me02-initial-build",
+      "startedAt": "2026-07-09T18:00:00Z",
+      "completedAt": "2026-07-09T19:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 17,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "Initial WA-03-cloned build for ME-02, populated from primary-source research (Maine SOS elections hub, absentee guide, Title 21-A Section 752-B, the Question 1 voter-ID initiative, FairVote, Vote.gov, and dated news reporting). ME-02 is an open seat: Jared Golden (D) retired; Matthew Dunlap (D) vs. Paul LePage (R) in the November 2026 general. All election events and voting rules remain marked needsReview: true and confidence: unconfirmed pending human QA, including confirmation of the Question 1 implementing statute citation and the itemized Kennebec County town list."
+    },
+    "NEXT_REFRESH_AT": "2026-07-16T18:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-me02-2026-w28",
+      "periodStart": "2026-07-09",
+      "periodEnd": "2026-07-09",
+      "sourcesChecked": 17,
+      "newUpdates": 4,
+      "conflictsCreated": 0,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 4,
+      "needsReview": 17,
+      "sourceErrors": 0,
+      "summary": "Initial build for ME-02, cloned from the WA-03 dashboard template ahead of the November 3, 2026 general election. OPEN SEAT: Rep. Jared Golden (D) announced his retirement on Nov. 5, 2025; the general election is Matthew Dunlap (D, Maine State Auditor, won a 4-way RCV Democratic primary June 9, 2026 with a final-round 52.5%) vs. Paul LePage (R, former Maine Governor, ran unopposed). No independent candidate qualified, so the general is a straight two-candidate race; ranked-choice multi-round tabulation would only activate if a third candidate later qualifies. NEW FOR 2026: Maine's Question 1 initiative (effective Jan. 1, 2026) creates Maine's first-ever voter photo-ID requirement, a major reversal of its historical no-ID stance. Maine elections are administered by municipal (town/city) clerks, not counties; ME-02 covers 10 whole counties plus 18 specific Kennebec County towns. Key dates: registration deadline Oct 13 (with same-day registration available through Election Day), absentee available from ~Oct 4, absentee request deadline (standard) Oct 29, Election Day Nov 3 (absentee must be received by 8:00 p.m.). Maine has no statewide drop-box locator and no online registration-status lookup tool — both confirmed gaps in Maine's voter-facing tooling, not research shortfalls. All 17 sources verified as of July 9, 2026. All events and rules flagged needsReview pending statutory-citation and municipal-directory confirmation.",
+      "generatedAt": "2026-07-09T18:00:00Z"
+    }
+  }
+}
