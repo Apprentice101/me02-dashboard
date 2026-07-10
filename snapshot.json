@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-09",
   "updatedAt": "2026-07-09T19:00:00Z",
-  "exportedAt": "2026-07-09T23:28:06.979Z",
+  "exportedAt": "2026-07-10T21:03:08.757Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -392,7 +392,7 @@
           "src-central-maine-lepage",
           "src-legis1-me02"
         ],
-        "confidence": "unconfirmed",
+        "confidence": "high",
         "lastVerified": "2026-07-09",
         "status": "estimated"
       },
