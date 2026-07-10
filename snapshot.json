@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-09",
-  "updatedAt": "2026-07-09T19:00:00Z",
-  "exportedAt": "2026-07-10T21:03:08.757Z",
+  "dataAsOf": "2026-07-10",
+  "updatedAt": "2026-07-10T21:46:01.406Z",
+  "exportedAt": "2026-07-10T21:47:33.333Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-10",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-10",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-10",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -724,17 +724,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-09-me02-initial-build",
-      "startedAt": "2026-07-09T18:00:00Z",
-      "completedAt": "2026-07-09T19:00:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 17,
+      "id": "run-2026-07-10-me02-auto",
+      "startedAt": "2026-07-10T21:45:23.823Z",
+      "completedAt": "2026-07-10T21:46:01.406Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 9,
       "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Initial WA-03-cloned build for ME-02, populated from primary-source research (Maine SOS elections hub, absentee guide, Title 21-A Section 752-B, the Question 1 voter-ID initiative, FairVote, Vote.gov, and dated news reporting). ME-02 is an open seat: Jared Golden (D) retired; Matthew Dunlap (D) vs. Paul LePage (R) in the November 2026 general. All election events and voting rules remain marked needsReview: true and confidence: unconfirmed pending human QA, including confirmation of the Question 1 implementing statute citation and the itemized Kennebec County town list."
+      "summary": "Automated refresh completed 2026-07-10 for ME-02. Sources checked: 9. LLM verifications: 10. 3 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-16T18:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-17T21:46:01.406Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
