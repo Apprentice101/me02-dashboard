@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-10",
   "updatedAt": "2026-07-10T21:46:01.406Z",
-  "exportedAt": "2026-07-10T21:47:33.333Z",
+  "exportedAt": "2026-07-11T01:05:39.786Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -720,6 +720,46 @@
         "publishedAt": "2026-04-01",
         "relevanceSummary": "Reports on the Maine Supreme Judicial Court's April 2026 advisory opinion maintaining the status quo on RCV scope, relevant background for understanding how ME-02's general election will be tabulated.",
         "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-005",
+        "headline": "Inside the Democratic civil war over replacing Graham Platner on Maine's ballot",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/07/09/politics/elections/inside-the-democratic-civil-war-over-replacing-graham-platner-on-maines-ballot/",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "Details the statewide Democratic ballot-replacement process after Senate nominee Graham Platner suspended his campaign July 9, 2026. Platner must file formal withdrawal by 5:00 PM July 13; Maine Democrats have until July 27 to name a replacement via a 600-delegate convention. ME-02 voters will see the replacement's name at the top of their November ballot alongside the Dunlap-vs-LePage race.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-006",
+        "headline": "Graham Platner still has not filed paperwork to officially drop out",
+        "sourceName": "Townhall",
+        "url": "https://townhall.com/tipsheet/cameron-arcand/2026/07/09/graham-platner-still-has-not-filed-paperwork-to-officially-drop-out-n2679129",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "Confirms per the Maine Secretary of State's office that as of July 9 Platner has NOT filed an official withdrawal notice — required in writing with a signature, per statute. He has until end of business Monday July 13. Directly relevant to ME-02 voters trying to understand what will appear on their November ballot.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-007",
+        "headline": "Democrats distance themselves from Graham Platner while trying to hold his base",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/07/09/politics/elections/democrats-graham-platners-base/",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "Reports on the 600-delegate replacement convention structure (500 county-elected + 100 state committee) and lists Democratic contenders including former state senator Troy Jackson. Turnout dynamics from a contested Senate ballot line will materially affect ME-02 down-ballot totals.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-008",
+        "headline": "Maine Dems planning convention for next candidate after scandal-ridden Graham Platner drops out of Senate race",
+        "sourceName": "New York Post",
+        "url": "https://nypost.com/2026/07/08/us-news/maine-dems-planning-convention-for-next-candidate-after-scandal-ridden-graham-platner-drops-out-of-senate-race/",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "Confirms the statutory ballot-replacement timeline: Platner filing deadline July 13 at 5:00 PM; Democratic Party replacement deadline July 27 at 5:00 PM. Convention will seat ~600 delegates. Frontrunner mentioned: former Maine Senate President Troy Jackson.",
+        "tag": "ballot-access",
         "reviewState": "new"
       }
     ],
