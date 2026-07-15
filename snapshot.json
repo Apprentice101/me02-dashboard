@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-10",
-  "updatedAt": "2026-07-10T21:46:01.406Z",
-  "exportedAt": "2026-07-11T01:05:39.786Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:22:30.104Z",
+  "exportedAt": "2026-07-15T06:39:50.433Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -186,7 +186,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -210,7 +210,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -764,17 +764,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-10-me02-auto",
-      "startedAt": "2026-07-10T21:45:23.823Z",
-      "completedAt": "2026-07-10T21:46:01.406Z",
+      "id": "run-2026-07-15-me02-auto",
+      "startedAt": "2026-07-15T06:22:09.573Z",
+      "completedAt": "2026-07-15T06:22:30.104Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
+      "sourcesChecked": 8,
       "updatesCreated": 0,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-10 for ME-02. Sources checked: 9. LLM verifications: 10. 3 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-07-15 for ME-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-17T21:46:01.406Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:22:30.104Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
