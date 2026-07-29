@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:33:45.804Z",
-  "exportedAt": "2026-07-22T21:16:19.036Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:37:19.708Z",
+  "exportedAt": "2026-07-29T06:54:39.922Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -764,17 +764,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-me02-auto",
-      "startedAt": "2026-07-22T06:33:29.002Z",
-      "completedAt": "2026-07-22T06:33:45.804Z",
+      "id": "run-2026-07-29-me02-auto",
+      "startedAt": "2026-07-29T06:36:54.672Z",
+      "completedAt": "2026-07-29T06:37:19.708Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
       "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for ME-02. Sources checked: 8. LLM verifications: 5. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for ME-02. Sources checked: 8. LLM verifications: 7. 3 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:33:45.804Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:37:19.708Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
