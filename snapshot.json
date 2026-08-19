@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:32:59.515Z",
-  "exportedAt": "2026-08-12T05:47:51.519Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:45:35.795Z",
+  "exportedAt": "2026-08-19T05:07:58.658Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -123,7 +123,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Also references a 'Listing of Municipal Clerks and Registrars and Office Addresses.' NEEDS REVIEW: exact direct URL to that listing was not independently isolated in this pass."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -186,7 +186,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -210,7 +210,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -771,20 +771,100 @@
         "relevanceSummary": "This article is about the ME-02 general-election matchup and confirms the district’s November 3 election context, which is directly relevant for voters tracking the ballot and candidate slate. It does not discuss procedure changes, so the voter impact is indirect.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ep83oy",
+        "headline": "Maine Democrats win dispute over DNC voting rules",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/08/18/politics/washington/maine-democratic-national-committe-ranked-choice-voting-rule-change-rejected/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This article explains that the Democratic National Committee dropped a proposed rule that would have barred the use of ranked-choice ballots to allocate presidential delegates, allowing Maine Democrats to continue using the state’s existing ranked-choice voting procedures for presidential primaries and federal general elections, which directly affects how ME-02 voters’ ballots are cast and counted.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0rirqqk",
+        "headline": "How Safe Are Maine’s Elections? Questions Grow Over Voter Database, District Changes and Ballot Security",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/08/how-safe-are-maines-elections-questions-grow-over-voter-database-district-changes-and-ballot-security/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This piece examines Maine’s Central Voter Registration system, how voter records determine which district a voter belongs to, and how paper ballots and recounts work, giving ME-02 voters insight into voter registration administration, district assignment, and ballot security practices that apply statewide.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0p2amth",
+        "headline": "Mainers Can Begin Requesting Absentee Ballots for November 3rd General Election",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/08/mainers-can-begin-requesting-absentee-ballots-for-november-3rd-general-election/",
+        "publishedAt": "2026-08-05",
+        "relevanceSummary": "This report restates that Maine voters can request absentee ballots for the November general election, notes the October 29 request deadline, and says most municipalities have secure ballot drop boxes. It also summarizes voter-registration and first-time voter ID/document requirements that ME-02 voters need to know.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0qx2s3a",
+        "headline": "Voter Information Center",
+        "sourceName": "ACLU of Maine",
+        "url": "https://www.aclumaine.org/voter-information-center/",
+        "publishedAt": "2026-08-03",
+        "relevanceSummary": "ACLU of Maine’s voter guide says Maine voters can vote by mail, vote early in person, or vote on Election Day, and notes that all voters can use ongoing absentee ballots. This is statewide guidance that applies to ME-02 voters looking for current voting procedures.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0o6wgbf",
+        "headline": "It's Time to Request Your Absentee Ballot Online",
+        "sourceName": "ACLU of Maine",
+        "url": "https://www.aclumaine.org/news/your-vote-your-schedule-its-time-to-request-your-absentee-ballot-online/",
+        "publishedAt": "2026-08-03",
+        "relevanceSummary": "ACLU of Maine says all registered voters can request an absentee ballot without an excuse and can track their ballot online through the Secretary of State’s website. Because this is a statewide rule, it directly informs ME-02 voters about mail voting options and ballot tracking.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0tcd7of",
+        "headline": "You can now request a Maine absentee ballot for the general election",
+        "sourceName": "WABI",
+        "url": "https://www.wabi.tv/2026/08/03/you-can-now-request-maine-absentee-ballot-general-election/",
+        "publishedAt": "2026-08-03",
+        "relevanceSummary": "WABI reports that registered Maine voters may now request absentee ballots for the November election through their clerk or the Secretary of State website, with ballots available beginning October 5 and requests due by October 29. That statewide procedure applies to ME-02 voters and is important for mail voting planning.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0v2rkxh",
+        "headline": "Maine voters can request absentee ballots for Nov. 3 election starting today, ballots will be mailed",
+        "sourceName": "Maine Secretary of State",
+        "url": "https://www.maine.gov/sos/news/maine-voters-can-request-absentee-ballots-nov-3-election-starting-today-ballots-will-be-mailed",
+        "publishedAt": "2026-08-03",
+        "relevanceSummary": "Maine’s Secretary of State says registered voters can now request absentee ballots for the November 3 general election, with municipal clerks beginning to mail ballots 30 days before Election Day. This directly affects ME-02 voters because Maine’s absentee rules apply statewide and the notice also confirms online tracking and the 8 p.m. Election Day receipt deadline.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0m40w1k",
+        "headline": "Secretary of State Declines to Rule on Troy Jackson Ballot Eligibility as Court Fight Appears Likely",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/08/secretary-of-state-declines-to-rule-on-troy-jackson-ballot-eligibility-as-court-fight-appears-likely/",
+        "publishedAt": "2026-08-01",
+        "relevanceSummary": "The Maine Secretary of State declined to issue a legal opinion on Troy Jackson’s ballot eligibility and said he remains on the general-election ballot unless a court rules otherwise. This is relevant to ME-02 voters because it concerns statewide candidate-qualification rules for the November general election.",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-me02-auto",
-      "startedAt": "2026-08-12T05:32:48.377Z",
-      "completedAt": "2026-08-12T05:32:59.515Z",
+      "id": "run-2026-08-19-me02-auto",
+      "startedAt": "2026-08-19T04:44:41.134Z",
+      "completedAt": "2026-08-19T04:45:35.795Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 1,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for ME-02. Sources checked: 8. LLM verifications: 4. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for ME-02. Sources checked: 8. LLM verifications: 8. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:32:59.515Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:45:35.795Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
