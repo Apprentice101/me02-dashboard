@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:45:35.795Z",
-  "exportedAt": "2026-08-19T05:07:58.658Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:50:00.138Z",
+  "exportedAt": "2026-08-26T05:15:58.445Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -186,7 +186,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -210,7 +210,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -851,20 +851,100 @@
         "relevanceSummary": "The Maine Secretary of State declined to issue a legal opinion on Troy Jackson’s ballot eligibility and said he remains on the general-election ballot unless a court rules otherwise. This is relevant to ME-02 voters because it concerns statewide candidate-qualification rules for the November general election.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0gjdofz",
+        "headline": "6 write-in candidates file to challenge Susan Collins and Troy Jackson",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/08/25/politics/elections/6-write-in-candidates-challenge-susan-collins-troy-jackson/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "The report notes that six people filed paperwork by the statutory deadline to run as write-in candidates against Sen. Susan Collins and Troy Jackson and clarifies that only write-in votes for officially filed candidates will be counted, information that helps ME-02 voters understand write-in ballot procedures and candidate qualification for the November general.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-081y176",
+        "headline": "Mainers advised to vote early in fall election",
+        "sourceName": "Spectrum News Maine",
+        "url": "https://spectrumlocalnews.com/me/maine/politics/2026/08/25/bellows-says-monday-supreme-court-ruling-unlikely-to-impact-november-elections-in-maine",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Maine’s Secretary of State urges voters to cast absentee ballots as early as possible and reiterates that all ballots must be received by 8 p.m. on Election Day to be counted, giving ME-02 voters practical guidance on mail-voting timelines, overseas and military ballot mailing, and in-person absentee options.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-07au38y",
+        "headline": "Why the Supreme Court ruling on mail voting won't have an immediate impact in Maine",
+        "sourceName": "Portland Press Herald",
+        "url": "https://www.pressherald.com/2026/08/25/why-the-supreme-court-ruling-on-mail-voting-wont-have-an-immediate-impact-in-maine/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This article explains that a new U.S. Supreme Court ruling allowing federal restrictions on mail-in ballots will not immediately change Maine’s 2026 election procedures because an injunction in a separate case keeps current absentee and mail ballot rules in place, meaning ME-02 voters can continue to use existing mail-voting processes for November.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0rbx2al",
+        "headline": "Maine Secretary of State outlines key security procedures ahead of November election",
+        "sourceName": "WABI",
+        "url": "https://www.wabi.tv/2026/08/25/maine-secretary-state-outlines-key-security-procedures-ahead-november-election/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "The Maine Secretary of State details security procedures and timelines for the November election, including that absentee ballots will be available starting October 4 and reiterating protections for mail-in voting, information that directly governs how ME-02 voters can cast ballots and what to expect regarding mail voting and election security.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0rf38bn",
+        "headline": "US Postal Service issues new rule for mail ballots, but its impact on the midterms is uncertain",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/08/24/nation/us-postal-service-issues-new-rule-for-mail-ballots-but-its-impact-on-the-midterms-is-uncertain/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "The piece describes a new USPS rule requiring specific envelope formatting and voter data submission before mail ballots can enter the mail stream, a national change that could affect how Maine’s absentee ballots are handled even though its practical impact for 2026 remains unclear, so ME-02 voters relying on mail ballots should be aware of the evolving federal rules.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0wdy99q",
+        "headline": "US Postal Service rule tightens mail-in voting despite court challenges",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "The Guardian details a USPS proposal implementing a federal order that would require states to provide names and barcodes tied to mail-in ballots for federal elections, a change that could alter how Maine manages voter data and mail ballots and thus affect ME-02 absentee voters if enforced.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0qqlnxy",
+        "headline": "USPS publishes new rule requiring states to submit voter data before mailing ballots",
+        "sourceName": "NBC 10 / TurnTo10",
+        "url": "https://turnto10.com/news/nation-world/usps-publishes-new-rule-requiring-states-to-submit-voter-data-before-mailing-ballots-mail-in-united-states-postal-service-vote-voters-voter-fraud-politics-president-donald-trump",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "This article explains that USPS has adopted new standards requiring states to submit voter and ballot-tracking information through a federal portal before mail-in ballots can be sent, a rule that may influence Maine’s mail-ballot administration and the logistics of absentee voting for ME-02 voters if implemented for federal races.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ed2l8e",
+        "headline": "816 Accepted Ballots, 881 Votes: Maine Election Records Leave 65 UOCAVA Votes Unexplained",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/08/816-accepted-ballots-881-votes-maine-election-records-leave-65-uocava-votes-unexplained/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "Reviewing discrepancies in prior counts of military and overseas (UOCAVA) ballots, this article walks through Maine’s rules for absentee ballot deadlines, handling, signature requirements, and public record-keeping, giving ME-02 voters—including overseas and military voters—insight into how their absentee ballots are processed and what can cause rejection.",
+        "tag": "security",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-me02-auto",
-      "startedAt": "2026-08-19T04:44:41.134Z",
-      "completedAt": "2026-08-19T04:45:35.795Z",
+      "id": "run-2026-08-26-me02-auto",
+      "startedAt": "2026-08-26T04:49:08.875Z",
+      "completedAt": "2026-08-26T04:50:00.138Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for ME-02. Sources checked: 8. LLM verifications: 8. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for ME-02. Sources checked: 8. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:45:35.795Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:50:00.138Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
