@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:50:00.138Z",
-  "exportedAt": "2026-08-26T05:15:58.445Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:36:38.467Z",
+  "exportedAt": "2026-09-02T09:09:43.737Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -186,7 +186,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -931,20 +931,100 @@
         "relevanceSummary": "Reviewing discrepancies in prior counts of military and overseas (UOCAVA) ballots, this article walks through Maine’s rules for absentee ballot deadlines, handling, signature requirements, and public record-keeping, giving ME-02 voters—including overseas and military voters—insight into how their absentee ballots are processed and what can cause rejection.",
         "tag": "security",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0lur3r6",
+        "headline": "Maine Voter ID & Registration Deadline | Alto",
+        "sourceName": "Alto",
+        "url": "https://alto.gab.com/politics/voter-id/maine",
+        "publishedAt": "2026-08-29",
+        "relevanceSummary": "This voter guide summarizes that Maine generally does not require ID for most in-person voters, but federal law requires ID for certain first-time voters who registered by mail, and notes that same-day voter registration is allowed on Election Day—key voter-ID and registration details that apply statewide, including in ME-02.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0an2phg",
+        "headline": "Federal Agents at the Polls",
+        "sourceName": "ACLU of Maine",
+        "url": "https://www.aclumaine.org/know-your-rights/federal-agents-at-the-polls/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This know-your-rights resource for Maine voters ahead of the November 3, 2026 Election Day explains what federal agents such as ICE or other law enforcement can and cannot do at polling places and advises voters on how to respond, providing practical guidance that ME-02 voters can use if they encounter federal agents near their poll sites.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0im9phf",
+        "headline": "AARP Maine’s News You Can Use",
+        "sourceName": "Piscataquis Observer (AARP Maine column)",
+        "url": "https://observer-me.com/2026/08/28/opinion/aarp-maines-news-you-can-use-20/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This voter-information column explains how Maine residents can register to vote in person at their town office up to and including Election Day, register by mail or online using the Secretary of State’s system with a three-week processing window, and update name or address information, outlining practical registration steps that apply directly to ME-02 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-02jbwvn",
+        "headline": "Federal judge blocks attempts to restrict mail-in voting",
+        "sourceName": "Maine Secretary of State (official site)",
+        "url": "https://www.maine.gov/sos/news/federal-judge-blocks-attempts-restrict-mail-voting",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "An official announcement from the Maine Secretary of State reports that a federal judge in Boston has blocked a Trump administration effort to interfere with states’ mail-in voting, confirming that Maine’s existing absentee and mail ballot procedures for the November election remain in effect for all voters, including those in ME-02.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0juw5ef",
+        "headline": "Bellows Takes Trump Administration Back to Court Over Mail Voting as Election Questions Remain at Home",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/08/bellows-takes-trump-administration-back-to-court-over-mail-voting-as-election-questions-remain-at-home/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "The piece reports that Secretary of State Shenna Bellows is again suing the Trump administration over federal actions on mail voting, while emphasizing that with the November election approaching, Maine voters’ fundamental voting rights, including no-excuse absentee voting and existing mail ballot procedures, remain unchanged for ME-02 and the rest of the state.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-05a0o8b",
+        "headline": "Maine GOP Gov. Nominee to Ask for ICE at Polls",
+        "sourceName": "Newsmax",
+        "url": "https://www.newsmax.com/newsfront/bobby-charles-maine-ice/2026/08/26/id/1267437/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "The story notes that Maine’s Secretary of State Shenna Bellows said federal ICE agents are prohibited by law from being at polling places and assured residents they can expect a free and secure election in November, clarifying for ME-02 voters that federal immigration enforcement officers will not be stationed at their polling locations.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-08sbkfy",
+        "headline": "Maine sues Trump postal service over new mail voting rule",
+        "sourceName": "Portland Press Herald",
+        "url": "https://www.pressherald.com/2026/08/26/maine-sues-trump-postal-service-over-new-mail-voting-rule/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "This article describes Maine’s lawsuit challenging a new Postal Service rule that would require states to register mail voters with USPS and refuse delivery of ballots to voters not on postal-generated lists, a potential threat to timely ballot delivery for Maine absentee voters, including those in ME-02, if the rule were allowed to take effect.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0dw7eij",
+        "headline": "Maine's top elections official says it's 'business as usual' despite Supreme Court ruling",
+        "sourceName": "Maine Public",
+        "url": "https://www.mainepublic.org/politics/2026-08-26/maines-top-elections-official-says-its-business-as-usual-despite-supreme-court-ruling",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Maine Secretary of State Shenna Bellows explains that a recent preliminary U.S. Supreme Court ruling on a mail-in balloting case has not changed Maine's absentee or mail voting processes, stressing that voters statewide, including in ME-02, can still vote absentee by mail, by drop box, or in person using the same envelopes and procedures as before the ruling.",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-me02-auto",
-      "startedAt": "2026-08-26T04:49:08.875Z",
-      "completedAt": "2026-08-26T04:50:00.138Z",
+      "id": "run-2026-09-02-me02-auto",
+      "startedAt": "2026-09-02T08:35:33.401Z",
+      "completedAt": "2026-09-02T08:36:38.467Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
       "updatesCreated": 8,
-      "conflictsCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for ME-02. Sources checked: 8. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for ME-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:50:00.138Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:36:38.467Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
