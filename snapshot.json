@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-09-09",
   "updatedAt": "2026-09-09T08:50:17.779Z",
-  "exportedAt": "2026-09-09T09:20:09.576Z",
+  "exportedAt": "2026-09-09T19:32:54.972Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -152,18 +152,44 @@
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
-      "src-me-question1-voter-id": {
-        "id": "src-me-question1-voter-id",
-        "name": "Maine Question 1 (2025 citizen initiative) — Voter Photo ID Requirement",
-        "short": "Maine Question 1 Voter ID",
-        "url": "https://legislature.maine.gov/",
-        "publisher": "Maine Legislature / Maine voters (citizen initiative)",
-        "sourceType": "statutory",
-        "hierarchyLevel": 3,
-        "dateAccessed": "2026-07-09",
+      "src-me-question1-ballotpedia": {
+        "id": "src-me-question1-ballotpedia",
+        "name": "Ballotpedia — Maine Question 1, Require Voter Photo ID and Change Absentee Ballot and Drop Box Rules Initiative (2025)",
+        "short": "Ballotpedia — Maine Question 1 (2025, Defeated)",
+        "url": "https://ballotpedia.org/Maine_Question_1,_Require_Voter_Photo_ID_and_Change_Absentee_Ballot_and_Drop_Box_Rules_Initiative_(2025)",
+        "publisher": "Ballotpedia",
+        "sourceType": "civic-nonprofit",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-09-09",
         "lastVerified": "2026-09-09",
-        "confidence": "unconfirmed",
-        "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
+        "confidence": "high",
+        "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
+      },
+      "src-me-question1-wikipedia": {
+        "id": "src-me-question1-wikipedia",
+        "name": "Wikipedia — 2025 Maine Question 1",
+        "short": "Wikipedia — 2025 Maine Question 1",
+        "url": "https://en.wikipedia.org/wiki/2025_Maine_Question_1",
+        "publisher": "Wikipedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-09-09",
+        "lastVerified": "2026-09-09",
+        "confidence": "high",
+        "notes": "Records the certified Nov. 4, 2025 result: 175,751 Yes (35.81%) vs. 315,008 No (64.19%). Corroborates Ballotpedia on the defeat."
+      },
+      "src-me-question1-maine-public": {
+        "id": "src-me-question1-maine-public",
+        "name": "Maine Public — Does Maine's Question 1 call for commonsense voter ID changes, or will it undermine absentee voting? (Oct. 6, 2025)",
+        "short": "Maine Public — Question 1 pre-election coverage",
+        "url": "https://www.mainepublic.org/politics/2025-10-06/does-maines-question-1-call-for-commonsense-voter-id-changes-or-will-it-undermine-absentee-voting",
+        "publisher": "Maine Public",
+        "sourceType": "news",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-09-09",
+        "lastVerified": "2026-09-09",
+        "confidence": "high",
+        "notes": "Pre-election explainer confirming the measure was still pending as of October 2025. Useful for historical context on what the initiative would have changed had it passed."
       },
       "src-me-candidates-guide-2026": {
         "id": "src-me-candidates-guide-2026",
@@ -414,18 +440,20 @@
     "RULES": [
       {
         "id": "rule-me-voter-photo-id-question1",
-        "topic": "NEW voter photo-ID requirement (Question 1, effective Jan. 1, 2026)",
-        "currentRule": "Maine voters approved a first-time photo-ID requirement via the Question 1 citizen initiative (passed November 2025, effective January 1, 2026) — a major reversal of Maine's historical no-ID stance. Accepted ID for in-person voting: Maine driver's license, Maine non-driver ID, U.S. passport, military ID, or a concealed-carry permit with photo. College/university ID is explicitly NOT accepted. Absentee voters must include their ID number or a photocopy of their ID with their ballot return. Voters without ID cast a 'challenged ballot' and must provide ID within 4 days after the election, or sign a religious-exemption affidavit.",
-        "status": "active",
-        "whyItMatters": "This is the single most significant procedural change affecting ME-02 (and all Maine districts) for the 2026 cycle. Every ME-02 voter, including longtime Maine voters accustomed to no-ID voting, must now bring qualifying photo ID or be prepared to cast a challenged ballot and cure it within 4 days.",
+        "topic": "Voter ID — Question 1 photo-ID initiative was rejected in 2025 (historical)",
+        "currentRule": "Maine has NO photo-ID requirement to vote, in person or absentee. On Nov. 4, 2025, Maine voters REJECTED Question 1 — a citizen initiative that would have created Maine's first-ever voter photo-ID requirement — 64.2% No to 35.8% Yes (315,008 No vs. 175,751 Yes; 490,759 votes cast). The initiative never took effect. Maine's existing no-ID voting rules remain in effect for the 2026 election cycle: voters are not required to present photo ID at the polls, and absentee voters are not required to include an ID number or ID photocopy with their ballot return.",
+        "status": "inactive",
+        "whyItMatters": "ME-02 voters do NOT need to bring photo ID to vote in 2026. Any earlier guidance on this dashboard that Maine had adopted a photo-ID requirement was incorrect and has been corrected. This entry is kept for historical context — Maine voters considered and rejected a photo-ID requirement in 2025 — but is not an active rule.",
         "governingLevel": "statewide",
         "sourceIds": [
-          "src-me-question1-voter-id"
+          "src-me-question1-ballotpedia",
+          "src-me-question1-wikipedia",
+          "src-me-question1-maine-public"
         ],
-        "confidence": "unconfirmed",
-        "lastVerified": "2026-07-09",
-        "needsReview": true,
-        "detail": "NEEDS REVIEW: the specific implementing statute/administrative rule citation (Title 21-A section number) was not independently pulled from the Maine Legislature's enrolled-initiative text in this pass; corroborate against legislature.maine.gov before publishing exact ID-list wording. A dedicated Maine SOS voter-ID sub-page was also not isolated in this pass — substance is sourced to news/civic-tracker coverage of the initiative."
+        "confidence": "high",
+        "lastVerified": "2026-09-09",
+        "needsReview": false,
+        "detail": "Corrected 2026-09-09 (Betsy Corcoran QA). The dashboard previously described Question 1 as passed and effective Jan. 1, 2026; this was factually wrong. Certified result on Nov. 4, 2025 was 175,751 Yes (35.81%) vs. 315,008 No (64.19%) per Wikipedia's 2025 Maine Question 1 page; Ballotpedia marks the measure 'Defeated'. Maine Public's Oct. 6, 2025 pre-election coverage documents what the measure would have changed had it passed. Do not re-activate this rule without direct evidence of a subsequent enacted photo-ID law."
       },
       {
         "id": "rule-me-same-day-registration",
@@ -589,12 +617,12 @@
       {
         "id": "res-verify",
         "label": "Voter ID information",
-        "description": "NEW for 2026: Maine's Question 1 initiative (effective Jan. 1, 2026) requires photo ID to vote. Accepted ID: Maine driver's license or non-driver ID, U.S. passport, military ID, or a concealed-carry permit with photo. College/university ID is NOT accepted. NEEDS REVIEW: a dedicated Maine SOS voter-ID sub-page was not isolated in this research pass; this description is sourced to news/civic-tracker coverage of the initiative pending an official SOS ID-specific page.",
+        "description": "Maine does NOT require photo ID to vote. On Nov. 4, 2025, voters rejected Question 1 — the citizen initiative that would have created a photo-ID requirement — 64.2% No to 35.8% Yes. The initiative never took effect. For 2026, Maine's existing no-ID voting rules remain in place for both in-person and absentee voting. For general voter information, see the Maine Secretary of State's elections hub.",
         "url": "https://www.maine.gov/sos/elections-voting/",
         "governingAuthority": "Maine Secretary of State",
         "sourceType": "official-state",
-        "sourceId": "src-me-question1-voter-id",
-        "lastVerified": "2026-07-09"
+        "sourceId": "src-me-sos-elections-hub",
+        "lastVerified": "2026-09-09"
       },
       {
         "id": "res-results",
@@ -651,26 +679,29 @@
       },
       {
         "id": "upd-me02-003",
-        "title": "NEW voter photo-ID law (Question 1) takes effect Jan. 1, 2026",
-        "fieldChanged": "Voting rules — voter ID",
-        "oldValue": "Maine had no voter photo-ID requirement.",
-        "newValue": "Question 1, a citizen initiative passed in November 2025, creates Maine's first-ever voter photo-ID requirement, effective January 1, 2026. This is the single most significant procedural change for ME-02 voters in the 2026 cycle. NEEDS REVIEW: exact implementing statute/Title 21-A section citation not independently confirmed in this pass.",
+        "title": "Correction: Maine Question 1 photo-ID initiative was DEFEATED in Nov. 2025 — no photo ID required to vote",
+        "fieldChanged": "rule-me-voter-photo-id-question1",
+        "oldValue": "Question 1, a citizen initiative passed in November 2025, creates Maine's first-ever voter photo-ID requirement, effective January 1, 2026.",
+        "newValue": "Maine voters REJECTED Question 1 on Nov. 4, 2025 — 64.2% No to 35.8% Yes (315,008 No vs. 175,751 Yes; 490,759 votes cast). The photo-ID initiative never took effect. Maine has no photo-ID requirement to vote in 2026, in person or absentee. Sources: Ballotpedia (marked 'Defeated'), Wikipedia's 2025 Maine Question 1 page (certified vote totals), Maine Public (pre-election coverage).",
         "sourceIds": [
-          "src-me-question1-voter-id"
+          "src-me-question1-ballotpedia",
+          "src-me-question1-wikipedia",
+          "src-me-question1-maine-public"
         ],
-        "detectedAt": "2026-07-09T18:00:00Z",
+        "detectedAt": "2026-09-09T19:25:00Z",
         "severity": "high",
-        "reviewState": "new",
-        "visibility": "public"
+        "reviewState": "reviewed",
+        "visibility": "public",
+        "changeKind": "correction"
       },
       {
         "id": "upd-me02-004",
         "title": "All rules and events flagged for statutory-text and municipal-directory verification",
         "fieldChanged": "QA status",
         "oldValue": "Not yet reviewed",
-        "newValue": "8 voting rules and 9 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-07-09). Verify the Question 1 implementing statute citation, the itemized 18-town Kennebec County list against an official apportionment source, and the statewide municipal clerk directory URL before publish.",
+        "newValue": "8 voting rules and 9 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-07-09). Verify the itemized 18-town Kennebec County list against an official apportionment source, and the statewide municipal clerk directory URL before publish. (The Question 1 voter-ID entry was corrected on 2026-09-09 — the initiative was defeated at the polls in Nov. 2025 and does not need statute-citation verification.)",
         "sourceIds": [
-          "src-me-question1-voter-id",
+          "src-me-question1-ballotpedia",
           "src-wikipedia-me02",
           "src-me-upcoming-elections"
         ],
@@ -1118,7 +1149,7 @@
       "newsItems": 4,
       "needsReview": 17,
       "sourceErrors": 0,
-      "summary": "Initial build for ME-02, cloned from the WA-03 dashboard template ahead of the November 3, 2026 general election. OPEN SEAT: Rep. Jared Golden (D) announced his retirement on Nov. 5, 2025; the general election is Matthew Dunlap (D, Maine State Auditor, won a 4-way RCV Democratic primary June 9, 2026 with a final-round 52.5%) vs. Paul LePage (R, former Maine Governor, ran unopposed). No independent candidate qualified, so the general is a straight two-candidate race; ranked-choice multi-round tabulation would only activate if a third candidate later qualifies. NEW FOR 2026: Maine's Question 1 initiative (effective Jan. 1, 2026) creates Maine's first-ever voter photo-ID requirement, a major reversal of its historical no-ID stance. Maine elections are administered by municipal (town/city) clerks, not counties; ME-02 covers 10 whole counties plus 18 specific Kennebec County towns. Key dates: registration deadline Oct 13 (with same-day registration available through Election Day), absentee available from ~Oct 4, absentee request deadline (standard) Oct 29, Election Day Nov 3 (absentee must be received by 8:00 p.m.). Maine has no statewide drop-box locator and no online registration-status lookup tool — both confirmed gaps in Maine's voter-facing tooling, not research shortfalls. All 17 sources verified as of July 9, 2026. All events and rules flagged needsReview pending statutory-citation and municipal-directory confirmation.",
+      "summary": "Initial build for ME-02, cloned from the WA-03 dashboard template ahead of the November 3, 2026 general election. OPEN SEAT: Rep. Jared Golden (D) announced his retirement on Nov. 5, 2025; the general election is Matthew Dunlap (D, Maine State Auditor, won a 4-way RCV Democratic primary June 9, 2026 with a final-round 52.5%) vs. Paul LePage (R, former Maine Governor, ran unopposed). No independent candidate qualified, so the general is a straight two-candidate race; ranked-choice multi-round tabulation would only activate if a third candidate later qualifies. Maine elections are administered by municipal (town/city) clerks, not counties; ME-02 covers 10 whole counties plus 18 specific Kennebec County towns. Key dates: registration deadline Oct 13 (with same-day registration available through Election Day), absentee available from ~Oct 4, absentee request deadline (standard) Oct 29, Election Day Nov 3 (absentee must be received by 8:00 p.m.). Maine has no statewide drop-box locator and no online registration-status lookup tool — both confirmed gaps in Maine's voter-facing tooling, not research shortfalls. Question 1 (2025 photo-ID citizen initiative) was defeated at the polls on Nov. 4, 2025 (64.2% No), so Maine's existing no-photo-ID voting rules remain in effect for the 2026 cycle.",
       "generatedAt": "2026-07-09T18:00:00Z"
     }
   }
