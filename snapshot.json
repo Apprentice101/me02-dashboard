@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:36:38.467Z",
-  "exportedAt": "2026-09-02T09:09:43.737Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T08:50:17.779Z",
+  "exportedAt": "2026-09-09T09:20:09.576Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -123,7 +123,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Also references a 'Listing of Municipal Clerks and Registrars and Office Addresses.' NEEDS REVIEW: exact direct URL to that listing was not independently isolated in this pass."
       },
@@ -161,7 +161,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: passed November 2025, effective January 1, 2026. Implementing statute/Title 21-A section number was not independently pulled from the enrolled-initiative text in this pass; substance sourced to news/civic-tracker coverage pending an official SOS ID-specific page."
       },
@@ -186,7 +186,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -210,7 +210,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1011,20 +1011,100 @@
         "relevanceSummary": "Maine Secretary of State Shenna Bellows explains that a recent preliminary U.S. Supreme Court ruling on a mail-in balloting case has not changed Maine's absentee or mail voting processes, stressing that voters statewide, including in ME-02, can still vote absentee by mail, by drop box, or in person using the same envelopes and procedures as before the ruling.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0x1bg3o",
+        "headline": "How We’re Safeguarding the Midterm Elections",
+        "sourceName": "ACLU of Maine",
+        "url": "https://www.aclumaine.org/news/how-were-safeguarding-the-midterm-elections/",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This statewide voter-resource piece details Maine options for early and absentee voting, including voting in person, by mail, or via secure municipal ballot boxes, and emphasizes protections around these processes that are relevant to ME‑02 voters choosing how to cast their ballots.[9][12]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0goil7p",
+        "headline": "Secretary of State’s Office provides update on Maine election processes",
+        "sourceName": "News From the States (summary of SoS release)",
+        "url": "https://ground.news/article/secretary-of-states-office-provides-update-on-maine-election-processes",
+        "publishedAt": "2026-09-07",
+        "relevanceSummary": "This article reiterates key statewide election dates, including National Voter Registration Day, the deadline to send UOCAVA ballots, and the start of in‑person no‑excuse absentee voting on October 4, clarifying timelines ME‑02 voters must follow to cast ballots early or by mail.[13][1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-08wi0qk",
+        "headline": "E-Newsletter September 4, 2026: November 3 General Election & Absentee Voting",
+        "sourceName": "Town of Cape Elizabeth (GovDelivery/Granicus)",
+        "url": "https://content.govdelivery.com/accounts/MECAPEELIZABETH/bulletins/4283a95",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This municipal bulletin outlines how registered Maine voters can request absentee ballots online or by mail and sets dates for in‑person absentee voting (October 5–29), illustrating local implementation of statewide absentee procedures that mirror what ME‑02 municipalities will follow, even though it is a different town.[11][1]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0n97kv6",
+        "headline": "Your Vote 2026",
+        "sourceName": "UNE Library Services",
+        "url": "https://library.une.edu/blog/2026/09/04/your-vote-2026/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This guide explains Maine voter registration options, absentee ballot request and return procedures, and clarifies that most voters do not need ID at the polls while some first‑time voters who registered by mail may need acceptable documents, information that applies statewide to ME‑02 voters.[2]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0lidqrp",
+        "headline": "Pre-Processing Timelines, Update Fall 2026 — Maine",
+        "sourceName": "Center for Election Innovation & Research",
+        "url": "https://electioninnovation.org/research/pre-processing-timelines/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This research update explains Maine’s rules for absentee ballot envelope processing upon receipt and ballot scanning on Election Day, noting municipalities may begin processing absentee ballots seven days before the election, which affects how and when ME‑02 mail ballots are handled and counted.[6][1]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0n0hy64",
+        "headline": "General Election is two months away; Secretary of State's Office provides update on Maine election processes",
+        "sourceName": "Maine Secretary of State",
+        "url": "https://www.maine.gov/sos/news/general-election-two-months-away-secretary-states-office-provides-update-maine-election-1",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This statewide update outlines Maine’s voter registration deadlines (in person, by mail, online, BMV), absentee ballot request and return rules, and the availability of secured drop boxes, all of which apply directly to ME‑02 voters for the November general.[1][13]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ar6znw",
+        "headline": "Defending Our Vote & Safeguarding Maine Elections",
+        "sourceName": "ACLU of Maine",
+        "url": "https://www.aclumaine.org/campaigns-initiatives/defending-our-vote-our-election-safeguarding-program/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This statewide program description highlights early‑voting and absentee options in Maine and efforts to safeguard election administration, offering ME‑02 voters practical information on voting early and understanding protections around their ballots.[12][9]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0u21se7",
+        "headline": "Bellows says election will proceed as usual, despite legal battle over Trump’s mail-in voting order",
+        "sourceName": "News From the States",
+        "url": "https://www.newsfromthestates.com/article/bellows-says-election-will-proceed-usual-despite-legal-battle-over-trumps-mail-voting-order",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "Maine’s Secretary of State explains that, despite ongoing litigation over a federal order on mail‑in voting, Maine will continue normal absentee and ballot drop‑box procedures, reassuring ME‑02 voters that they can still request and return mail ballots and use local drop boxes beginning October 4.[3][8]",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-me02-auto",
-      "startedAt": "2026-09-02T08:35:33.401Z",
-      "completedAt": "2026-09-02T08:36:38.467Z",
+      "id": "run-2026-09-09-me02-auto",
+      "startedAt": "2026-09-09T08:49:01.365Z",
+      "completedAt": "2026-09-09T08:50:17.779Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
       "updatesCreated": 8,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for ME-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-09-09 for ME-02. Sources checked: 8. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:36:38.467Z",
+    "NEXT_REFRESH_AT": "2026-09-16T08:50:17.779Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
