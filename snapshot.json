@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T08:50:17.779Z",
-  "exportedAt": "2026-09-09T19:32:54.972Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:18:41.288Z",
+  "exportedAt": "2026-09-16T09:51:33.416Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -174,7 +174,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high",
         "notes": "Records the certified Nov. 4, 2025 result: 175,751 Yes (35.81%) vs. 315,008 No (64.19%). Corroborates Ballotpedia on the defeat."
       },
@@ -212,7 +212,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -236,7 +236,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1122,20 +1122,70 @@
         "relevanceSummary": "Maine’s Secretary of State explains that, despite ongoing litigation over a federal order on mail‑in voting, Maine will continue normal absentee and ballot drop‑box procedures, reassuring ME‑02 voters that they can still request and return mail ballots and use local drop boxes beginning October 4.[3][8]",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-01uqcxt",
+        "headline": "3 run for 2 open Presque Isle City Council seats",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026/09/15/aroostook/aroostook-government/presque-isle-city-council-race-joam40zk0w/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This Presque Isle (Aroostook County) piece, within ME-02, notes that city council candidates qualified for the ballot by submitting the required 50 signatures by the Sept. 4 deadline, illustrating local candidate‑qualification rules and deadlines that parallel state standards for appearing on November ballots.[11] ME-02 voters in Presque Isle gain insight into how local candidates get on the ballot, which is part of the broader election‑administration process in their district.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-02ijgn4",
+        "headline": "Your guide to the 2026 Bangor City Council race",
+        "sourceName": "Bangor Daily News",
+        "url": "https://www.bangordailynews.com/2026-bangor-city-council-election/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Although focused on the Bangor city council election, this guide lays out key procedural dates that apply to Bangor voters in ME-02, including the Oct. 5 start of absentee early voting, the Oct. 29 deadline to request an absentee ballot or vote early, and Nov. 3 Election Day hours (7 a.m.–8 p.m.), clarifying local timelines that mirror statewide practice.[10] It also notes that Maine allows same‑day voter registration, confirming for ME-02 residents that they can register at the polls on Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ru0wh8",
+        "headline": "Maine's top election official praises Supreme Court ruling on mail ballots",
+        "sourceName": "Spectrum News Maine",
+        "url": "https://spectrumlocalnews.com/me/maine/news/2026/09/15/maine-voting-absentee",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This story quotes Maine’s top election official telling voters that there are no changes to absentee or same‑day voting in Maine following the Supreme Court’s decision, emphasizing that Mainers, including ME-02 voters, can continue to use mail ballots and same‑day registration as in past elections.[12] She advises voters to allow extra mailing time or use ballot drop boxes outside municipal buildings, providing practical guidance on mail‑ballot timing and drop‑box use for ME-02.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ww3s3f",
+        "headline": "Maine's voting operations to proceed as planned following Supreme Court ruling",
+        "sourceName": "WABI",
+        "url": "https://www.wabi.tv/2026/09/15/maine-voters-face-familiar-rules-this-fall-following-high-stakes-supreme-court-ruling/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This article reports that after a high‑stakes Supreme Court ruling, Maine Secretary of State Shenna Bellows confirmed that Maine’s voting operations and guidelines will proceed unchanged for November, including in‑person voting, secure drop boxes, and absentee voting by mail, reassuring ME-02 voters that existing procedures remain in effect.[4] It also notes military and overseas ballots go out Sept. 19 and statewide no‑excuse absentee voting opens Oct. 5, giving ME-02 voters concrete timing information for mail and early voting.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-02glzc9",
+        "headline": "Early Voting Begins Oct. 4, No-Excuse Absentee Voting Available Through Oct. 29",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/09/early-voting-begins-oct-4-no-excuse-absentee-voting-available-through-oct-29/",
+        "publishedAt": "2026-09-09",
+        "relevanceSummary": "This statewide guidance explains that in-person absentee (early) voting for the November general election begins Oct. 4 across Maine, with no‑excuse absentee voting available through Oct. 29, and clarifies that absentee ballots must be received at local town offices by 8 p.m. on Election Day, directly affecting ME-02 voters’ options and deadlines for early and mail voting.[1] It also outlines voter registration rules, acceptable proof of identity and residency, and notes that secure ballot drop boxes are available at most municipal buildings, giving ME-02 voters detailed procedural information on how to register and cast ballots.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-me02-auto",
-      "startedAt": "2026-09-09T08:49:01.365Z",
-      "completedAt": "2026-09-09T08:50:17.779Z",
+      "id": "run-2026-09-16-me02-auto",
+      "startedAt": "2026-09-16T09:17:52.571Z",
+      "completedAt": "2026-09-16T09:18:41.288Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "sourcesChecked": 9,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for ME-02. Sources checked: 8. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for ME-02. Sources checked: 9. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T08:50:17.779Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:18:41.288Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
