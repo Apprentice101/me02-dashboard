@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:18:41.288Z",
-  "exportedAt": "2026-09-16T09:51:33.416Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:14:06.335Z",
+  "exportedAt": "2026-09-23T09:37:53.602Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-23",
         "confidence": "high",
         "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
       },
@@ -212,7 +212,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -236,7 +236,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1172,20 +1172,70 @@
         "relevanceSummary": "This statewide guidance explains that in-person absentee (early) voting for the November general election begins Oct. 4 across Maine, with no‑excuse absentee voting available through Oct. 29, and clarifies that absentee ballots must be received at local town offices by 8 p.m. on Election Day, directly affecting ME-02 voters’ options and deadlines for early and mail voting.[1] It also outlines voter registration rules, acceptable proof of identity and residency, and notes that secure ballot drop boxes are available at most municipal buildings, giving ME-02 voters detailed procedural information on how to register and cast ballots.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0i8vmow",
+        "headline": "No, voting is not a waste of time",
+        "sourceName": "Portland Press Herald",
+        "url": "https://www.pressherald.com/?p=7723244",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "The article describes Maine’s statewide options for voting on Election Day, by absentee ballot, or early in person, including the Oct. 5 ballot-mailing start date, Oct. 29 early-voting endpoint, and Nov. 3 ballot-receipt deadline. The procedures apply to ME-02 voters, though the article is commentary-oriented and should be treated as a general voter-information item.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-091z6u1",
+        "headline": "Voting resources for the upcoming election",
+        "sourceName": "Maine House Democrats",
+        "url": "https://www.maine.gov/housedems/news/voting-resources-upcoming-election",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The article provides Maine voting information, including polling-location lookup, early voting, absentee-ballot requests, drop-box and return options, ballot deadlines, and Election Day registration. Although the specific examples concern Gorham, the statewide procedures are relevant to Maine voters and the district dashboard.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-08m2coy",
+        "headline": "Sept. 19 marks first day of voting for Mainers living or serving abroad",
+        "sourceName": "FOX Bangor",
+        "url": "https://www.foxbangor.com/news/sept-19-marks-first-day-of-voting-for-mainers-living-or-serving-abroad/article_19df46ec-d63c-461a-a7a7-40e63a707847.html",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The article reports that Sept. 19 is the first day for Mainers living or serving abroad to vote and notes the deadline for sending ballots for already pending requests. It also points voters to Maine’s online voter-registration portal, making it relevant to ME-02 residents overseas or serving abroad.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0fbal6f",
+        "headline": "How to vote early in Maine's Nov. 3, 2026, General Elections",
+        "sourceName": "MSEA-SEIU",
+        "url": "https://mseaseiu.org/2026/09/17/how-to-vote-early-in-maines-nov-3-2026-general-elections/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The article explains statewide Maine procedures for requesting absentee ballots, voting early in person, returning ballots by 8 p.m. on Election Day, registering online or in person, and using municipal drop boxes. These rules apply directly to ME-02 voters, although voters should verify local details with their municipal clerk.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0pefrmy",
+        "headline": "Bellows to seek fourth term as head of Maine elections",
+        "sourceName": "Spectrum News Maine",
+        "url": "https://spectrumlocalnews.com/me/maine/politics/2026/09/16/bellows-to-seek-fourth-term-as-head-of-maine-elections",
+        "publishedAt": "2026-09-16",
+        "relevanceSummary": "The article discusses Secretary of State Shenna Bellows seeking another term and identifies statewide election-administration initiatives credited to her, including automatic voter registration, online registration, and a centralized voter-registration system. These systems affect voter registration and election administration for ME-02 voters.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-me02-auto",
-      "startedAt": "2026-09-16T09:17:52.571Z",
-      "completedAt": "2026-09-16T09:18:41.288Z",
+      "id": "run-2026-09-23-me02-auto",
+      "startedAt": "2026-09-23T09:13:29.626Z",
+      "completedAt": "2026-09-23T09:14:06.335Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
+      "sourcesChecked": 8,
       "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for ME-02. Sources checked: 9. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for ME-02. Sources checked: 8. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:18:41.288Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:14:06.335Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
