@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:14:06.335Z",
-  "exportedAt": "2026-09-23T09:37:53.602Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:19:00.899Z",
+  "exportedAt": "2026-09-30T10:38:28.280Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -84,7 +84,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Source for absentee availability window, request deadline, return deadline, and ballot-curing procedure."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high",
         "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
       },
@@ -212,7 +212,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -236,7 +236,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1222,20 +1222,60 @@
         "relevanceSummary": "The article discusses Secretary of State Shenna Bellows seeking another term and identifies statewide election-administration initiatives credited to her, including automatic voter registration, online registration, and a centralized voter-registration system. These systems affect voter registration and election administration for ME-02 voters.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ja2k33",
+        "headline": "UMaine UVote empowers students ahead of upcoming election",
+        "sourceName": "The Maine Campus",
+        "url": "https://mainecampus.com/category/news/2026/09/umaine-uvote-empowers-students-ahead-of-upcoming-election/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The article provides voting procedures for University of Maine students in Orono, including registration documentation, the November 3 polling location and hours, early-voting dates, and absentee-ballot request options. Orono is within ME-02.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-07pj5an",
+        "headline": "Secretary of State warns of misleading election information websites, online information",
+        "sourceName": "EIN Presswire",
+        "url": "https://www.einpresswire.com/article/945277552/secretary-of-state-warns-of-misleading-election-information-websites-online-information",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Maine Secretary of State Shenna Bellows warned voters about misleading election-information websites and urged them to use official .gov sources for registration and election information. The statewide warning applies directly to ME-02 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-01awcjb",
+        "headline": "How ranked-choice voting will work in Maine's 2026 election",
+        "sourceName": "The Maine Monitor",
+        "url": "https://themainemonitor.org/ranked-choice-voting-guide-2026/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Maine’s 2nd Congressional District will use ranked-choice voting in the November 3 general election. The guide explains ranking candidates, possible tabulation rounds, and the October 5 start of early voting for Maine voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0scyt3q",
+        "headline": "Election officials are fighting wavering voter trust by making mundane processes visible and recruiting citizens to help",
+        "sourceName": "UMaine News",
+        "url": "https://umaine.edu/news/2026/09/election-officials-are-fighting-wavering-voter-trust-by-making-mundane-processes-visible-and-recruiting-citizens-to-help/",
+        "publishedAt": "2026-09-24",
+        "relevanceSummary": "The article discusses election-administration transparency, including Maine’s use of live feeds for recounts and ranked-choice-voting tabulations. These statewide procedures are relevant to the ME-02 congressional election.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-me02-auto",
-      "startedAt": "2026-09-23T09:13:29.626Z",
-      "completedAt": "2026-09-23T09:14:06.335Z",
+      "id": "run-2026-09-30-me02-auto",
+      "startedAt": "2026-09-30T10:18:41.953Z",
+      "completedAt": "2026-09-30T10:19:00.899Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 5,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for ME-02. Sources checked: 8. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for ME-02. Sources checked: 8. LLM verifications: 4. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:14:06.335Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:19:00.899Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
