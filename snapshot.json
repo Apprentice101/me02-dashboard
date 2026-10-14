@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T10:54:55.414Z",
-  "exportedAt": "2026-10-07T11:13:17.483Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:18:42.608Z",
+  "exportedAt": "2026-10-14T09:32:47.717Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high",
         "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
       },
@@ -212,7 +212,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -236,7 +236,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1342,20 +1342,70 @@
         "relevanceSummary": "The article describes the statewide federal-ballot ranked-choice voting format for Maine’s November 2026 election and explains when ranked-choice voting is or is not used. This affects how ME-02 voters mark federal contests on their ballots.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-077l0k5",
+        "headline": "Voting Resources from Maine Audubon",
+        "sourceName": "Maine Audubon",
+        "url": "https://maineaudubon.org/news/voting-resources-from-maine-audubon/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The statewide voter resource page states that absentee ballots must be requested by October 29 and returned to municipal clerks by 8 p.m. on November 3, with early in-person absentee voting also available through October 29. ME-02 voters should confirm hours with their town clerk.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ludl26",
+        "headline": "Three weeks out from the November election, write-in candidate and voter participation deadlines approach",
+        "sourceName": "Ballotpedia",
+        "url": "https://news.ballotpedia.org/2026/10/13/three-weeks-out-from-the-november-election-write-in-candidate-and-voter-participation-deadlines-approach/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Maine voters can register by mail or online through October 13, while in-person registration remains available through Election Day, November 3. These statewide deadlines apply directly to ME-02 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ao48uv",
+        "headline": "Early voting begins in Maine ahead of November election",
+        "sourceName": "Ground News",
+        "url": "https://ground.news/article/early-voting-begins-in-maine-ahead-of-november-election_cc91e4",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "Maine’s statewide no-excuse absentee and early in-person voting period is underway through October 29. Absentee ballots must reach municipal clerks by 8 p.m. on November 3, and voters can track ballot status online.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0l8odb5",
+        "headline": "Waterville voters face mayor's race, charter question and contests up to Congress",
+        "sourceName": "NEWS CENTER Maine",
+        "url": "https://www.newscentermaine.com/article/news/regional/the-maine-monitor/waterville-voters-face-mayors-race-charter-question-and-contests-up-to-congress/97-4a0e9b2c-b1a8-4576-bebc-3594912d3562",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The article outlines Maine registration and absentee-voting procedures, including the October 13 online and mail-registration deadline, documentation requirements for mail registration, and Election Day registration. The statewide rules are relevant to ME-02 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-03lpuse",
+        "headline": "The Maine Wire’s Guide to Casting Your Ballot",
+        "sourceName": "The Maine Wire",
+        "url": "https://www.themainewire.com/2026/10/the-maine-wires-guide-to-casting-your-ballot-2/",
+        "publishedAt": "2026-10-09",
+        "relevanceSummary": "The statewide guide explains absentee and early in-person voting, secure drop-box returns, Election Day polling, and Maine’s registration rules. It also lists documents accepted for first-time registration, including government ID, proof of residency, and certain school-issued photo IDs.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-me02-auto",
-      "startedAt": "2026-10-07T10:54:23.791Z",
-      "completedAt": "2026-10-07T10:54:55.414Z",
+      "id": "run-2026-10-14-me02-auto",
+      "startedAt": "2026-10-14T09:18:14.301Z",
+      "completedAt": "2026-10-14T09:18:42.608Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for ME-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for ME-02. Sources checked: 8. LLM verifications: 7. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T10:54:55.414Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:18:42.608Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
