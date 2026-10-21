@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:18:42.608Z",
-  "exportedAt": "2026-10-14T09:32:47.717Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:09:22.855Z",
+  "exportedAt": "2026-10-21T09:22:42.224Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -59,7 +59,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for Maine's statewide 2026 election calendar, administered locally by municipal clerks under BCEC rules."
       },
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high",
         "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
       },
@@ -212,7 +212,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 5,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed"
       },
       "src-vote-gov-maine": {
@@ -236,7 +236,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: sole corroboration for the itemized 18-town Kennebec County list; cross-check against Maine's official apportionment statute or Legislature redistricting page before publishing."
       },
@@ -1392,20 +1392,80 @@
         "relevanceSummary": "The statewide guide explains absentee and early in-person voting, secure drop-box returns, Election Day polling, and Maine’s registration rules. It also lists documents accepted for first-time registration, including government ID, proof of residency, and certain school-issued photo IDs.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ab5co6",
+        "headline": "Portland officials recommend absentee voters use drop boxes amid mail delays",
+        "sourceName": "NEWS CENTER Maine",
+        "url": "https://www.newscentermaine.com/article/news/politics/elections/portland-officials-recommend-absentee-voters-use-drop-boxes-amid-mail-delays/97-3c742e98-3f23-4168-8d77-7be3833d3cac",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "The article explains that Maine absentee ballots must be received by 8 p.m. on Election Day regardless of postmark, recommends drop boxes when mail delivery is uncertain, and points voters to the state ballot tracker. Voters whose absentee ballots may not arrive can vote in person instead.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-09kcnnb",
+        "headline": "Vote already!",
+        "sourceName": "PenBayPilot",
+        "url": "https://www.penbaypilot.com/article/vote-already/275595",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The article reminds Maine voters that early voting continues at town offices through October 29 and that absentee ballots must arrive by 8 p.m. on November 3. It also notes eligibility information for students and incarcerated voters that applies statewide.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-034nr2k",
+        "headline": "Bobby Charles urges Mainers to get out and vote",
+        "sourceName": "NEWS CENTER Maine",
+        "url": "https://www.newscentermaine.com/article/news/politics/elections/bobby-charles-mainers-vote-maine-gubernatorial-candidate-politics-election-pingree-bennett-bellows/97-9aa55d21-6718-41aa-8c28-53a8e48b056c",
+        "publishedAt": "2026-10-16",
+        "relevanceSummary": "Maine’s Secretary of State reminded voters that in-person early voting is available at local town offices through October 29. Absentee ballots must be received by 8 p.m. on November 3.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0zg9an3",
+        "headline": "Resources for the Upcoming Election",
+        "sourceName": "Town of Gorham",
+        "url": "https://www.einpresswire.com/article/949723735/resources-for-the-upcoming-election",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "The article describes Maine’s no-excuse absentee process, early in-person voting through October 29, the 8 p.m. Election Day polling deadline, and registration through Election Day. The statewide procedural information applies to ME-02 voters, although the local office hours are specific to Gorham.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0t7thar",
+        "headline": "Your voice in elections shapes Maine's future",
+        "sourceName": "Portland Press Herald",
+        "url": "https://www.pressherald.com/2026/10/15/your-voice-in-elections-shapes-maines-future-column/",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "The article provides statewide Maine voting guidance relevant to ME-02, including polling-place information, no-excuse absentee voting, the October 29 absentee deadline, the 8 p.m. Election Day receipt deadline, and in-person registration through Election Day.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-me02-0ry65wi",
+        "headline": "Early voter turnout is strong as major races drive interest in Maine",
+        "sourceName": "WMTW",
+        "url": "https://www.wmtw.com/article/early-voter-turnout-strong-maine-election-2026/74149084",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "Maine voters, including those in ME-02, can vote absentee without giving a reason, request ballots online or by mail, and vote in person at their clerk’s office through October 29. Completed absentee ballots must reach municipalities by 8 p.m. on November 3, and same-day registration remains available.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-me02-auto",
-      "startedAt": "2026-10-14T09:18:14.301Z",
-      "completedAt": "2026-10-14T09:18:42.608Z",
+      "id": "run-2026-10-21-me02-auto",
+      "startedAt": "2026-10-21T09:08:58.807Z",
+      "completedAt": "2026-10-21T09:09:22.855Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 5,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for ME-02. Sources checked: 8. LLM verifications: 7. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for ME-02. Sources checked: 8. LLM verifications: 7. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:18:42.608Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:09:22.855Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
