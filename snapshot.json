@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-28",
-  "updatedAt": "2026-10-28T10:19:38.144Z",
-  "exportedAt": "2026-10-28T10:24:31.558Z",
+  "dataAsOf": "2026-11-04",
+  "updatedAt": "2026-11-04T11:46:41.805Z",
+  "exportedAt": "2026-11-04T11:50:34.865Z",
   "districtCode": "ME-02",
   "data": {
     "DISTRICT": {
@@ -148,7 +148,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "unconfirmed",
         "notes": "Permits (does not mandate) municipal-clerk-operated secured absentee drop boxes; locations/hours set locally."
       },
@@ -161,7 +161,7 @@
         "sourceType": "civic-nonprofit",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high",
         "notes": "Marks Maine Question 1 (2025) as 'Defeated' at the Nov. 4, 2025 election. Used to correct the earlier assumption on this dashboard that the initiative had passed."
       },
@@ -1455,17 +1455,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-28-me02-auto",
-      "startedAt": "2026-10-28T10:19:29.926Z",
-      "completedAt": "2026-10-28T10:19:38.144Z",
+      "id": "run-2026-11-04-me02-auto",
+      "startedAt": "2026-11-04T11:46:39.953Z",
+      "completedAt": "2026-11-04T11:46:41.805Z",
       "triggerType": "scheduled",
       "sourcesChecked": 10,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-28 for ME-02. Sources checked: 10. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-04 for ME-02. Sources checked: 10. LLM verifications: 10. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-04T10:19:38.144Z",
+    "NEXT_REFRESH_AT": "2026-11-11T11:46:41.805Z",
     "WEEKLY_REPORT": {
       "id": "wr-me02-2026-w28",
       "periodStart": "2026-07-09",
